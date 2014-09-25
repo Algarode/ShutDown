@@ -49,19 +49,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>13UxO4EgXLQp5jh5v7CtiM0RoGffsfCS6VRjzgbQChc=</dsig:DigestValue>
+        <dsig:DigestValue>OSEf93F5GBFITSIYHxNisXAYj7VtElsdCY/LV85/RU0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="nl\SluitAf.resources.dll" size="373760">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="nl\SluitAf.resources.dll" size="388608">
       <assemblyIdentity name="SluitAf.resources" version="1.0.0.0" language="nl" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>LLg4dQHwZYmnkOEXHekqk1fnw2JjXsQH0DpSUKYn348=</dsig:DigestValue>
+        <dsig:DigestValue>CKNxjFrzLFNoTTUUxUcPSCDBM5Bpwii1i3Or6slSXhI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -124,8 +124,9 @@
   <data name="&gt;&gt;btn_obt_OK.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lbMinuten.Text" xml:space="preserve">
-    <value>minuten</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="rbAfsluiten.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -154,9 +155,6 @@
   </data>
   <data name="&gt;&gt;rb1H.ZOrder" xml:space="preserve">
     <value>8</value>
-  </data>
-  <data name="overToolStripMenuItem.Text" xml:space="preserve">
-    <value>Over</value>
   </data>
   <data name="&gt;&gt;timer1.Name" xml:space="preserve">
     <value>timer1</value>
@@ -206,11 +204,11 @@
   <data name="rbAfsluiten.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="rb10Min.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
     <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rb5Min.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Afsluiten</value>
@@ -227,8 +225,8 @@
   <data name="&gt;&gt;lbMinuten.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="afsluitenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 22</value>
+  <data name="overToolStripMenuItem.Text" xml:space="preserve">
+    <value>Over</value>
   </data>
   <data name="bekijkHelpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>131, 22</value>
@@ -244,6 +242,9 @@
   </data>
   <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
     <value>278, 130</value>
+  </data>
+  <data name="rb1H.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="btOk.Text" xml:space="preserve">
     <value>OK</value>
@@ -6429,9 +6430,6 @@
   <data name="&gt;&gt;rbAfsluiten.Name" xml:space="preserve">
     <value>rbAfsluiten</value>
   </data>
-  <data name="&gt;&gt;tbTijd.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;lbMinuten.Parent" xml:space="preserve">
     <value>tabPage1</value>
   </data>
@@ -6447,20 +6445,17 @@
   <data name="&gt;&gt;overToolStripMenuItem.Name" xml:space="preserve">
     <value>overToolStripMenuItem</value>
   </data>
-  <data name="btAnnuleren.Text" xml:space="preserve">
-    <value>Annuleren</value>
+  <data name="&gt;&gt;bestandToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lbMinuten.Name" xml:space="preserve">
     <value>lbMinuten</value>
   </data>
-  <data name="&gt;&gt;btAnnuleren.Name" xml:space="preserve">
-    <value>btAnnuleren</value>
-  </data>
   <data name="&gt;&gt;btn_obt_OK.Parent" xml:space="preserve">
     <value>tabPage2</value>
   </data>
-  <data name="btOk.Location" type="System.Drawing.Point, System.Drawing">
-    <value>189, 67</value>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>tabPage2</value>
   </data>
   <data name="&gt;&gt;cbAnders.Name" xml:space="preserve">
     <value>cbAnders</value>
@@ -6476,6 +6471,9 @@
   </data>
   <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 156</value>
   </data>
   <data name="&gt;&gt;rb10Min.Parent" xml:space="preserve">
     <value>tabPage1</value>
@@ -6498,11 +6496,11 @@
   <data name="cbAnders.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="rb10Min.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 34</value>
-  </data>
   <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nudMinuten.Name" xml:space="preserve">
+    <value>nudMinuten</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 24</value>
@@ -6513,7 +6511,6 @@
   <data name="btn_obt_OK.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="tabPage1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
@@ -6522,6 +6519,9 @@
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>SluitAf</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>283, 176</value>
   </data>
   <data name="&gt;&gt;rb1H.Parent" xml:space="preserve">
     <value>tabPage1</value>
@@ -6541,9 +6541,6 @@
   <data name="rb30Min.Text" xml:space="preserve">
     <value>30 minuten</value>
   </data>
-  <data name="btAnnuleren.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
   <data name="&gt;&gt;nudMinuten.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -6553,11 +6550,11 @@
   <data name="&gt;&gt;nudMinuten.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <data name="&gt;&gt;tbTijd.Name" xml:space="preserve">
+    <value>tbTijd</value>
+  </data>
   <data name="&gt;&gt;rb30Min.ZOrder" xml:space="preserve">
     <value>6</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>tabPage2</value>
   </data>
   <data name="&gt;&gt;afsluitenToolStripMenuItem.Name" xml:space="preserve">
     <value>afsluitenToolStripMenuItem</value>
@@ -6580,6 +6577,9 @@
   <data name="&gt;&gt;rb1H.Name" xml:space="preserve">
     <value>rb1H</value>
   </data>
+  <data name="afsluitenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 22</value>
+  </data>
   <data name="&gt;&gt;rb10Min.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
@@ -6595,14 +6595,17 @@
   <data name="nudMinuten.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
+  <data name="rb5Min.Text" xml:space="preserve">
+    <value>5 minuten</value>
+  </data>
   <data name="btAnnuleren.Location" type="System.Drawing.Point, System.Drawing">
     <value>189, 96</value>
   </data>
   <data name="&gt;&gt;overToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="lbMinuten.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
   </data>
   <data name="&gt;&gt;rbAfsluiten.Parent" xml:space="preserve">
     <value>tabPage2</value>
@@ -6637,6 +6640,9 @@
   <data name="&gt;&gt;tbTijd.Parent" xml:space="preserve">
     <value>tabPage2</value>
   </data>
+  <data name="&gt;&gt;afsluitenToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="tbTijd.Location" type="System.Drawing.Point, System.Drawing">
     <value>39, 21</value>
   </data>
@@ -6655,14 +6661,8 @@
   <data name="rb1H.Location" type="System.Drawing.Point, System.Drawing">
     <value>11, 82</value>
   </data>
-  <data name="tbTijd.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 20</value>
-  </data>
   <data name="&gt;&gt;rb5Min.Name" xml:space="preserve">
     <value>rb5Min</value>
-  </data>
-  <data name="btn_obt_OK.Location" type="System.Drawing.Point, System.Drawing">
-    <value>194, 100</value>
   </data>
   <data name="afsluitenToolStripMenuItem.Text" xml:space="preserve">
     <value>Afsluiten</value>
@@ -6688,9 +6688,6 @@
   <data name="&gt;&gt;btOk.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;bestandToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 20</value>
   </data>
@@ -6712,6 +6709,9 @@
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>27, 13</value>
   </data>
+  <data name="btOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 67</value>
+  </data>
   <data name="btAnnuleren.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
   </data>
@@ -6721,8 +6721,8 @@
   <data name="bestandToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>61, 20</value>
   </data>
-  <data name="lbMinuten.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 13</value>
+  <data name="btn_obt_OK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 100</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Tijd:</value>
@@ -6730,14 +6730,14 @@
   <data name="&gt;&gt;bestandToolStripMenuItem.Name" xml:space="preserve">
     <value>bestandToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;helpToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;rb1H.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="rbSlaapstand.Size" type="System.Drawing.Size, System.Drawing">
     <value>78, 17</value>
@@ -6748,6 +6748,9 @@
   <data name="&gt;&gt;cbAnders.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="cbAnders.Text" xml:space="preserve">
+    <value>Anders</value>
+  </data>
   <data name="menuStrip1.Text" xml:space="preserve">
     <value>menuStrip1</value>
   </data>
@@ -6757,7 +6760,7 @@
   <data name="rb5Min.Location" type="System.Drawing.Point, System.Drawing">
     <value>11, 10</value>
   </data>
-  <data name="rb1H.AutoSize" type="System.Boolean, mscorlib">
+  <data name="rb10Min.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="&gt;&gt;btn_obt_OK.Name" xml:space="preserve">
@@ -6766,11 +6769,8 @@
   <data name="rb5Min.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 17</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>283, 176</value>
-  </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;btAnnuleren.Name" xml:space="preserve">
+    <value>btAnnuleren</value>
   </data>
   <data name="rbSlaapstand.Text" xml:space="preserve">
     <value>Slaapstand</value>
@@ -6784,8 +6784,8 @@
   <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
     <value>tabControl1</value>
   </data>
-  <data name="rb5Min.Text" xml:space="preserve">
-    <value>5 minuten</value>
+  <data name="btAnnuleren.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
   </data>
   <data name="nudMinuten.Location" type="System.Drawing.Point, System.Drawing">
     <value>139, 9</value>
@@ -6811,17 +6811,20 @@
   <data name="&gt;&gt;rb5Min.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>286, 156</value>
+  <data name="lbMinuten.Text" xml:space="preserve">
+    <value>minuten</value>
+  </data>
+  <data name="btAnnuleren.Text" xml:space="preserve">
+    <value>Annuleren</value>
   </data>
   <data name="&gt;&gt;timer1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="cbAnders.Text" xml:space="preserve">
-    <value>Anders</value>
+  <data name="tbTijd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 20</value>
   </data>
-  <data name="rb5Min.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+  <data name="rb10Min.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 34</value>
   </data>
   <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
     <value>menuStrip1</value>
@@ -6829,20 +6832,20 @@
   <data name="rbSlaapstand.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 100</value>
   </data>
-  <data name="&gt;&gt;nudMinuten.Name" xml:space="preserve">
-    <value>nudMinuten</value>
+  <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="lbMinuten.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;tbTijd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;afsluitenToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;tbTijd.Name" xml:space="preserve">
-    <value>tbTijd</value>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>104, 17</value>
